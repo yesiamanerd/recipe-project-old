@@ -1,11 +1,9 @@
 package guru.springframework.recipeproject.domain;
 
-import org.springframework.data.repository.cdi.Eager;
-
 import javax.persistence.*;
 import java.math.BigDecimal;
 
-@Eager
+@Entity
 public class Ingredient {
 
     @Id
